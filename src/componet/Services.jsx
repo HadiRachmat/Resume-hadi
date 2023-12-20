@@ -24,7 +24,7 @@ export default function Services() {
           {" "}
           What I can Do For Now
         </h1>
-        <h4 className="text-[#D9D9D9] ">
+        <h4 className="text-[#D9D9D9] text-xl sm:text-base ">
           {" "}
           Life for something or Die for nothing
         </h4>
@@ -43,8 +43,9 @@ export default function Services() {
               <img
                 src="/src/assets/img/Book.png"
                 alt=""
-                srcset=""
-                className=" md:mx-36 lg:mx-auto"
+                srcSet=""
+                className="mx-auto my-10 sm:w-1/3"
+                width={70}
               />
               <h2 className="text-2xl text-[#D9D9D9] font-semibold uppercase">
                 {" "}
@@ -55,7 +56,8 @@ export default function Services() {
               <img
                 src="src/assets/img/Musical Notes.png"
                 alt=""
-                className=" md:mx-36 lg:mx-auto "
+                className="mx-auto my-10 sm:w-1/3"
+                width={70}
               />
               <p className="text-2xl font-semibold uppercase text-[#D9D9D9]">
                 {" "}
@@ -66,7 +68,8 @@ export default function Services() {
               <img
                 src="src/assets/img/Quran.png"
                 alt=""
-                className=" md:mx-36 lg:mx-auto "
+                className="mx-auto my-10 sm:w-1/3"
+                width={70}
               />
               <p className="text-2xl font-semibold uppercase text-[#D9D9D9]">
                 {" "}
@@ -77,7 +80,8 @@ export default function Services() {
               <img
                 src="src/assets/img/Workstation.png"
                 alt=""
-                className=" md:mx-36 lg:mx-auto "
+                className="mx-auto my-10 sm:w-1/3"
+                width={70}
               />
               <p className="text-2xl font-semibold uppercase text-[#D9D9D9]">
                 {" "}

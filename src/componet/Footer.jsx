@@ -3,17 +3,17 @@ import React from "react";
 function Footer(props) {
   return (
     <div className=" bg-[#352F44]">
-      <div className="sm:grid grid-cols-2 justify-items-center sm:mx-20">
-        <div className=" text-center my-16 ">
-          <h1 className="text-4xl font-bold uppercase text-[#D9D9D9]"> Contact Me </h1>
-          <p className="text-xl text-[#D9D9D9] py-9">
+      <div className="sm:grid grid-cols-2 mx-10">
+        <div className="my-10">
+          <h1 className="text-[#D9D9D9] text-center text-4xl font-semibold py-5"> Contact Me </h1>
+          <p className=" text-[#D9D9D9] text-center text-xl py-5">
             You can contact me on various platforms that
             <br /> I have listed below, thank you for visiting this <br />{" "}
             portfolio website
           </p>
-          <div >
+          <div className="">
             {/* INSTAGRAM */}
-            <div className="">
+            <div>
               <a
                 href="https://www.instagram.com/hadi.rachmat01/"
                 className="flex"
@@ -22,7 +22,7 @@ function Footer(props) {
                   src="/src/assets/img/instagram.png"
                   alt="instagram"
                   sizes=""
-                  srcset=""
+                  srcSet=""
                 />
                 <p className="place-self-center px-5 text-2xl text-[#D9D9D9] hover:text-white">
                   {" "}
@@ -37,7 +37,7 @@ function Footer(props) {
                 <img
                   src="/src/assets/img/Email.png"
                   alt="hadirahmat712@gmail.com"
-                  srcset=""
+                  srcSet=""
                 />
                 <p className="place-self-center px-5 text-2xl text-[#D9D9D9] hover:text-white">
                   {" "}
@@ -52,7 +52,7 @@ function Footer(props) {
                 <img
                   src="/src/assets/img/WhatsAppFooter.png"
                   alt="WhatsApp"
-                  srcset=""
+                  srcSet=""
                 />
                 <p className="place-self-center px-5 text-2xl text-[#D9D9D9] hover:text-white">
                   WhatsApp
@@ -63,7 +63,7 @@ function Footer(props) {
             {/* TELEGRAM-APP */}
             <div>
               <a href="http://" className="flex">
-                <img src="/src/assets/img/Telegram App.png" alt="" srcset="" />
+                <img src="/src/assets/img/Telegram App.png" alt="" srcSet="" />
                 <p className="place-self-center px-5 text-2xl text-[#D9D9D9] hover:text-white">
                   {" "}
                   Telegram{" "}
@@ -73,16 +73,16 @@ function Footer(props) {
             {/* END-TELEGRAM-APP */}
           </div>
         </div>
-        <div className="  mx-20 my-16">
-          <div className=" text-center">
-            <h3 className="text-4xl uppercase font-bold text-[#D9D9D9]"> contact form</h3>
-            <p className="text-[#D9D9D9] py-9 text-xl">
-              If not, you can contact me via the form that I have <br />{" "}
+        <div className="">
+          <div className="">
+            <h3 className=" text-[#D9D9D9] text-center text-4xl py-5 font-semibold"> Contact Form</h3>
+            <p className="text-[#D9D9D9] text-center text-xl py-5">
+              If not, you can contact me via the form that I have 
               provided below and this is connected to Gmail
             </p>
           </div>
           <div className="">
-            <form action="" className="py-10">
+            <form action="" className="">
               <div className="relative py-3">
                 <input
                   type="text"
@@ -93,7 +93,7 @@ function Footer(props) {
                   <img
                     src="/src/assets/img/user2.svg"
                     alt=""
-                    srcset=""
+                    srcSet=""
                     width={20}
                     height={20}
                     className=""
@@ -110,7 +110,7 @@ function Footer(props) {
                   <img
                     src="/src/assets/img/mail.svg"
                     alt=""
-                    srcset=""
+                    srcSet=""
                     className="text-sky-200"
                     width={20}
                     height={20}
@@ -127,7 +127,7 @@ function Footer(props) {
                   <img
                     src="/src/assets/img/wa.svg"
                     alt=""
-                    srcset=""
+                    srcSet=""
                     width={20}
                     height={20}
                   />
