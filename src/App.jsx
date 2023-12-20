@@ -11,10 +11,10 @@ import Footer from "./componet/Footer";
 function App() {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <Services />
-      <Skills /> */}
+      <Skills />
       <Footer/>
     </div>
   );

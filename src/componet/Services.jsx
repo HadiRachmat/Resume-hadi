@@ -54,7 +54,7 @@ export default function Services() {
             </SwiperSlide>
             <SwiperSlide className="my-10">
               <img
-                src="src/assets/img/Musical Notes.png"
+                src="/src/assets/img/Musical Notes.png"
                 alt=""
                 className="mx-auto my-10 sm:w-1/3"
                 width={70}
@@ -66,7 +66,7 @@ export default function Services() {
             </SwiperSlide>
             <SwiperSlide className="my-10">
               <img
-                src="src/assets/img/Quran.png"
+                src="/src/assets/img/Quran.png"
                 alt=""
                 className="mx-auto my-10 sm:w-1/3"
                 width={70}
@@ -78,7 +78,7 @@ export default function Services() {
             </SwiperSlide>
             <SwiperSlide className="my-10">
               <img
-                src="src/assets/img/Workstation.png"
+                src="/src/assets/img/Workstation.png"
                 alt=""
                 className="mx-auto my-10 sm:w-1/3"
                 width={70}
@@ -90,7 +90,7 @@ export default function Services() {
             </SwiperSlide>
             {/* <SwiperSlide className="my-10">
               <img
-                src="src/assets/img/Musical Notes.png"
+                src="/src/assets/img/Musical Notes.png"
                 alt=""
                 className=" md:mx-36 lg:mx-auto "
               />
@@ -101,7 +101,7 @@ export default function Services() {
             </SwiperSlide>
             <SwiperSlide className="my-10">
               <img
-                src="src/assets/img/Musical Notes.png"
+                src="/src/assets/img/Musical Notes.png"
                 alt=""
                 className=" md:mx-36 lg:mx-auto "
               />
