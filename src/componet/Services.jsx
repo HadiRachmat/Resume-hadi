@@ -10,22 +10,24 @@ import "swiper/css/pagination";
 // import "/src/App.css";
 
 // import required modules
-import { Navigation,FreeMode, Pagination } from "swiper/modules";
+import { Navigation, FreeMode, Pagination } from "swiper/modules";
 
 export default function Services() {
   return (
     <>
-      <div className="text-center bg-[#352F44]">
-        <h1 className="text-[#D9D9D9] uppercase font-bold text-xl pt-10">
-          {" "}
-          services{" "}
+      <div
+        id="services-section"
+        className="text-center bg-[#352F44] sm:rounded-t-full shadow-black shadow-2xl sm:rounded-b-full"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <h1 className="text-[#D9D9D9] uppercase font-bold text-xl pt-16 ">
+          services
         </h1>
         <h1 className="text-[#D9D9D9] font-bold text-4xl">
-          {" "}
           What I can Do For Now
         </h1>
         <h4 className="text-[#D9D9D9] text-xl sm:text-base ">
-          {" "}
           Life for something or Die for nothing
         </h4>
         <div className="py-4 pb-10">
@@ -36,7 +38,7 @@ export default function Services() {
             pagination={{
               clickable: true,
             }}
-            modules={[FreeMode,Navigation, Pagination]}
+            modules={[FreeMode, Navigation, Pagination]}
             className="mySwiper"
           >
             <SwiperSlide className="my-10">
@@ -48,8 +50,7 @@ export default function Services() {
                 width={70}
               />
               <h2 className="text-2xl text-[#D9D9D9] font-semibold uppercase">
-                {" "}
-                Reading{" "}
+                Reading
               </h2>
             </SwiperSlide>
             <SwiperSlide className="my-10">
@@ -60,8 +61,7 @@ export default function Services() {
                 width={70}
               />
               <p className="text-2xl font-semibold uppercase text-[#D9D9D9]">
-                {" "}
-                playing music{" "}
+                playing music
               </p>
             </SwiperSlide>
             <SwiperSlide className="my-10">
@@ -72,8 +72,7 @@ export default function Services() {
                 width={70}
               />
               <p className="text-2xl font-semibold uppercase text-[#D9D9D9]">
-                {" "}
-                playing music{" "}
+                Design
               </p>
             </SwiperSlide>
             <SwiperSlide className="my-10">
@@ -84,8 +83,7 @@ export default function Services() {
                 width={70}
               />
               <p className="text-2xl font-semibold uppercase text-[#D9D9D9]">
-                {" "}
-                playing music{" "}
+                Progamming
               </p>
             </SwiperSlide>
             {/* <SwiperSlide className="my-10">
@@ -95,8 +93,8 @@ export default function Services() {
                 className=" md:mx-36 lg:mx-auto "
               />
               <p className="text-2xl font-semibold uppercase text-[#D9D9D9]">
-                {" "}
-                playing music{" "}
+                
+                playing music
               </p>
             </SwiperSlide>
             <SwiperSlide className="my-10">
@@ -106,8 +104,8 @@ export default function Services() {
                 className=" md:mx-36 lg:mx-auto "
               />
               <p className="text-2xl font-semibold uppercase text-[#D9D9D9]">
-                {" "}
-                playing music{" "}
+                
+                playing music
               </p>
             </SwiperSlide> */}
           </Swiper>
